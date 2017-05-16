@@ -18,8 +18,8 @@
     <body>
         <main>
             <h1>Future Value Calculator</h1>
-            <?php if(!empty($errorMessege)) { ?>
-            <p class="error"><?php print htmlspecialchars($errorMessege); ?></p>
+            <?php if(!empty($errorMessage)) { ?>
+            <p class="error"><?php print htmlspecialchars($errorMessage); ?></p>
             <?php } ?>
             
             <form action="displayResults.php" method="post">
